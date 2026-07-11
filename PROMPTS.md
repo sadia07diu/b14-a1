@@ -1,0 +1,1 @@
+WRITE A HTML AND CSS CODE FOR Newsletter Signup page where theme is DevConf 2026 ,must use related background image

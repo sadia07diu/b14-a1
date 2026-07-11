@@ -2,6 +2,171 @@
     padding: 0;
     margin: 0;
 }
+/* Google Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+.signup-container {
+    background-image:url("./bg.jfif");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+    min-height:100vh;
+}
+.overlay-signup {
+    width:100%;
+    min-height:100vh;
+
+    background:rgba(0,0,0,.72);
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+}
+.signup-card{
+
+    width:420px;
+
+    background:rgba(255,255,255,.08);
+
+    backdrop-filter:blur(15px);
+
+    border:1px solid rgba(255,255,255,.15);
+
+    border-radius:18px;
+
+    padding:45px 40px;
+
+    text-align:center;
+
+    color:white;
+
+    box-shadow:0 10px 35px rgba(0,0,0,.4);
+
+}
+
+.signup-card h3{
+
+    color:#00e5ff;
+
+    letter-spacing:4px;
+
+    margin-bottom:12px;
+
+    font-size:18px;
+
+}
+
+.signup-card h1{
+
+    font-size:42px;
+
+    margin-bottom:15px;
+
+}
+
+.signup-card p{
+
+    color:#d7d7d7;
+
+    line-height:1.7;
+
+    margin-bottom:30px;
+
+    font-size:15px;
+
+}
+
+form{
+
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+}
+
+input{
+
+    padding:15px;
+
+    border:none;
+
+    border-radius:8px;
+
+    background:rgba(255,255,255,.12);
+
+    color:white;
+
+    font-size:15px;
+
+    outline:none;
+
+}
+
+input::placeholder{
+
+    color:#dddddd;
+}
+
+button{
+
+    padding:15px;
+
+    border:none;
+
+    border-radius:8px;
+
+    background:#00e5ff;
+
+    color:#111;
+
+    font-size:17px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+button:hover{
+
+    background:#00c8df;
+
+    transform:translateY(-3px);
+
+}
+
+small{
+
+    display:block;
+
+    margin-top:25px;
+
+    color:#cccccc;
+
+    font-size:13px;
+
+}
+
+@media(max-width:500px){
+
+.signup-card{
+
+    width:100%;
+
+    padding:35px 25px;
+
+}
+
+.signup-card h1{
+
+    font-size:34px;
+}
+
+}
+
 .speakers{
     padding: 50px 0;
     
