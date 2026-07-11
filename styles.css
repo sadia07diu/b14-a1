@@ -2,6 +2,60 @@
     padding: 0;
     margin: 0;
 }
+.speakers{
+    padding: 50px 0;
+    
+}
+.card-body img {
+    width:90%;
+
+    height:250px;
+
+    object-fit:cover;
+
+    display:block;
+    border-radius: 12px solid black;
+
+}
+.card-container {
+    width:100%;
+    max-width:1000px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:30px;
+    border-radius: 1px solid rgb(20, 17, 17);
+    
+}
+.card-body {
+    /* background-color: #0D1B2A; */
+    width: 100%;
+    display: block;
+    place-items: center;
+    padding: 10px;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    
+   
+    
+}
+.card-anchor {
+    text-decoration: none;
+    display: block;
+    justify-content: center;
+    padding: 15px;
+
+}
+.card-header {
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    padding: 20px;
+    /* align-items: center; */
+}
+
 .footer-img {
     padding: 10px ;
     
